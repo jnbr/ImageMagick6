@@ -188,7 +188,7 @@ static MagickBooleanType InvokePostscriptDelegate(
     *ghost_info;
 
   gs_main_instance
-    *interpreter;
+    *interpreter = NULL;
 
   gsapi_revision_t
     revision;
